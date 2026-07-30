@@ -36,4 +36,4 @@ cargo test
   `OpsLog`. Under Spectra `try_*` gates, adapter calls may no-op when Spectra is not
   configured; assertions focus on non-panic forward paths.
 - Sad-path tests are named with `_sad` so audits detect them; they assert concrete
-  drop/default behavior, not smoke-only `is_err()`.
+  drop/default behavior, (stronger than `is_err()` alone).
