@@ -1,4 +1,4 @@
-//! Install Boson OpsLog from env and emit one typed counter.
+//! Install Boson `OpsLog` from env and emit one typed counter.
 //!
 //! ```bash
 //! BOSON_TELEMETRY=console CARGO_BUILD_JOBS=1 \
